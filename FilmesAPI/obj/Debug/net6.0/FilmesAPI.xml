@@ -4,7 +4,7 @@
         <name>FilmesAPI</name>
     </assembly>
     <members>
-        <member name="M:FilmesAPI.Controllers.FilmeController.AdicionaFilme(FilmesAPI.Data.Dtos.CreateFilmeDto)">
+        <member name="M:FilmesAPI.Controllers.FilmeController.AdicionaFilme(FilmesAPI.Data.Dtos.Filme.CreateFilmeDto)">
             <summary>
             Adiciona um filme ao banco de dados
             </summary>
@@ -22,6 +22,30 @@
             <inheritdoc />
         </member>
         <member name="M:FilmesAPI.Migrations.criandoTabelaDeFilme.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesAPI.Migrations.cinemaeendereco">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.cinemaeendereco.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.cinemaeendereco.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.cinemaeendereco.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FilmesAPI.Migrations.cinemaeendereconovo">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.cinemaeendereconovo.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.cinemaeendereconovo.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FilmesAPI.Migrations.cinemaeendereconovo.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
     </members>
